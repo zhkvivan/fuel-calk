@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,25 @@
 	<link rel="stylesheet" href="/css/style.css">
 	<title>Document</title>
 </head>
-<body>
 
+<body>
+	<div class="container">
+		<h1>Fuel Calculator</h1>
+		<p>This simple fuel calculator can count how much costs your jorney.</p>
+		<div class="form-wrapper">
+
+			<div class="content">
+				<div class="inputs">
+					<input type="number" id='price' placeholder="Enter price">
+					<input type="number" id='miles' placeholder="Enter miles">
+					<input type="number" id='mpg' placeholder="Enter your MPG">
+				</div>
+				<button id="btn-count" class="btn">Count</button>
+			</div>
+			<p id='result'></p>
+		</div>
+	</div>
 	<script src="script.js"></script>
 </body>
+
 </html>
